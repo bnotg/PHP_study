@@ -1,7 +1,8 @@
 # study notes
-	在使用github的时候能够明显感觉到git与svn的不同。
-	一开始我在windows下使用clone这个仓库，编写了代码之后commit的时候，我以为是直接提交到了github上面（SVN中心化的思维使然），而且在commit的时候也没有先配置username和email，在提交的时候就失败了，配置好username和email后重新commit，然而发现是需要先pull代码，然后才可以push文件到github  
+在使用github的时候能够明显感觉到git与svn的不同。  
+
+一开始我在windows下使用clone这个仓库，编写了代码之后commit的时候，我以为是直接提交到了github上面（SVN中心化的思维使然），而且在commit的时候也没有先配置username和email，在提交的时候就失败了，配置好username和email后重新commit，然而发现是需要先pull代码，然后才可以push文件到github  
 
 
 	
-	了解git暂存区与工作区的区别，add文件后，文件又被修改之后提交，版本库里的文件是添加前的，并不是最新修改的，add命令是将文件添加到暂存区去了，提交的时候是讲暂存区里面的文件提交到版本库中
+了解git暂存区与工作区的区别，add文件后，文件又被修改之后提交，版本库里的文件是添加前的，并不是最新修改的，add命令是将文件添加到暂存区去了，提交的时候是讲暂存区里面的文件提交到版本库中
