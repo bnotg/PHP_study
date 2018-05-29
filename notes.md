@@ -1,0 +1,2 @@
+#study notes
+在使用github的时候能够明显感觉到git与svn的不同，一开始我在windows下使用clone这个仓库，编写了代码之后commit的时候，我以为是直接提交到了github上面（SVN中心化的思维使然），而且在commit的时候也没有先配置username和email，在提交的时候就失败了，配置好username和email后重新commit，然而发现是需要先pull代码，然后才可以push文件到github
