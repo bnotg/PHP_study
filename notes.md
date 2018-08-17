@@ -70,3 +70,6 @@ MySQL优化细节
 3.使用count(1) 代替使用count(*)  
 4.使用参数做为查询条件时无法通过索引进行数据查询
 
+2018-8-17
+-----
+`PDO::lastInsertId()`  如果使用了事务，需要在commit()之前使用lastInsertId，否则将会返回0；
